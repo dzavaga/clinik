@@ -23,11 +23,15 @@ a {
 }
 form {
     text-align: center;
-}
-body {
-    font-family: "roboto", sens-serif;
-}
+
+
+
 input {
     padding: 10px;
     border-radius: 10px;
 }
+<sectione>
+h2 {
+    text-align: left;
+}
+</sectione>
