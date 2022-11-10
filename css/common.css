@@ -261,12 +261,12 @@
   .product > button {
     border: 0;
     margin: 15px 0;
-    background-color: #f1c40f;
+    background-color: #f10f26;
     font-weight: 400;
   }
   
   .product > button:hover {
-    background-color: orange;
+    background-color: rgb(255, 0, 0);
     transition: background-color 1s;
   }
   
