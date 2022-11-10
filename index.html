@@ -1,46 +1,131 @@
-<html lang="en">
+<html lang="uk">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tesla</title>
-    <link href="css/index.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Стомат матеріали</title>
+  <link href="css/index.css" rel="stylesheet">
 </head>
-<header id="header">
-    <div class="logo">
-        <img id="header-img" src="" />
-        <<svg viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
-                fill="currentColor"></path></svg>
-    </div>
-    <nav id="nav-bar">
+
+<<body>
+  <div id="page-wrapper">
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="img/logou.jpg" alt="original logo">
+      </div>
+
+      <nav id="nav-bar">
         <ul>
-            <li><a class="nav-link" href="#model3">Model3</a></li>
-            <li><a class="nav-link" href="#modelc">Modelc</a></li>
-            <li><a class="nav-link" href="#modelx">Modelx</a></li>
+          <li><a class="nav-link" href="#пошук">Опис</a></li>
+          <li><a class="nav-link" href="#review">Застосування</a></li>
+          <li><a class="nav-link" href="#pricing">Ціни</a></li>
         </ul>
-    </nav>
-</header>
-<form id="form" action="https://www.freecodecamp.com/email-submit)">
-    <p>Enter your email address a chance!</p>
-    <input id="emeil" type="email" placeholder="Emeil" name="Emeil" />
-    <input id="submit" type="submit" />
-</form>
+      </nav>
+    </header>
 
-<section id="model3">
-    <div class="car">
-        <img class="model" width="250px" class="model3" src="img/model3.jpg" alt="model3"> <h2 class="car">Model3</h2>
+    <div class="container"></div>
+
+    <section id="hero">
+      <h2>Пошук товару</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Назва товару" required="">
+        <input id="submit" type="submit" value="Пошук" class="btn">
+      </form>
+    </section>
+
+    <div class="container">
+      <section id="features">
+        <div class="grid">
+          <img width="100mp" class="bond" src="img/bond.jpg" alt="bond">
+          <div class="desc">
+            <h2>3M Бонд</h2>
+            <p>
+              Адгезив Single Bond Universal може застосовуватися для всіх технік, включаючи тотальне протруювання,
+              самопротравліваніе селективне травлення. Він ідеально підходить як для прямих, так непрямих
+              реставрацій може використовуватися на всіх поверхнях без окремого праймера.
+
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <img width="100mp" class="cpilot" src="img/cpilot.jpg" alt="cpilot">
+          <div class="desc">
+            <h2>C-Pilot Files</h2>
+            <p>
+              Файл C-Pilot (файл C-Pilot) Antaeos (Antaeos) складається з рукоятки, металевого стрижня з робочою
+              частиною (секція стрижня, призначеного для виконання ендодонтичних маніпуляцій) і попередньо встановленої
+              на штоку пробки. Рукоятка інструменту виконана з пластика, стрижень - з нержавіючої хромонікелевої сталі,
+              пробка - з силікону. Неробоча частина штанги приладу градуйована рентгеноконтрастними насічками на
+              відстані 18, 19, 20, 22 мм від верху для зручності визначення її довжини на рентгенограмі.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <img width="100mp" class="praim" src="img/sirona.jpg" alt="praim">
+          </div>
+          <div class="desc">
+            <h2>Прайм бонд NT</h2>
+            <p>
+              Адгезивна система є універсальним однокомпонентним праймером адгезивом в одному флаконі для забезпечення
+              адгезії композитівкомпомерів до емалі дентину, також до металу кераміки. Прайм Бонд це
+              адгезив 5 покоління для техніки тотального травлення, на основі розчинника ацетону.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/C6OOaRyZNMM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </section>
+      <section id="pricing">
+        <div class="product" id="tenor">
+          <div class="level">Tenor Trombone</div>
+          <h2>$600</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="bass">
+          <div class="level">Bass Trombone</div>
+          <h2>$900</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="valve">
+          <div class="level">Valve Trombone</div>
+          <h2>$1200</h2>
+          <ol>
+            <li>Plays similar to a Trumpet</li>
+            <li>Great for Jazz Bands</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2016, Original Trombones</span>
+      </footer>
     </div>
-</section>
+  </div>
 
-<section id="modelc">
-    <img width="250px" class="modelc" src="img/modelc.jpeg" alt="modelc"><h3>Modelc</h3>
-</section>
-<section id="modelx">
-    <img width="250px" class="modelx" src="img/modelx.jpg" alt="modelx"><h4>Modelx</h4>
-</section>
-</div>
 
-</html>
+  </body>
